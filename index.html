@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="content=" width=device-width, initial-scale=1>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+    <nav id ="nav">
+      <ul>
+        <li> <a href="#">Homepage</a></li>
+        <li> <a href="#section2">Skills</a></li>
+        <li> <a href="#section4">About me</a></li>
+        <li> <a href="#section5">Works</a></li>
+        <li> <a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button type="button" id="navbtn"></button>
+</header>
+
+<section id="section1">
+<div class="container">
+  <h1>Frontend Developer</h1>
+  <h4>AKIKO</h4>
+</div>
+</section>
+<section id ="section2">
+  <button type="button" id="top">
+    <a href="#section1">Top</a>
+  </button>
+  <div class="three">
+    <img src="img/foto14.jpg" alt="">
+    <div class="">
+      <h2>Frontend</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS SCSS</li>
+        <li>Javascript</li>
+      </ul>
+
+    </div>
+  </div>
+
+
+  <div class="three">
+    <img src="img/foto16.jpg" alt="">
+    <div class="">
+      <h2>CMS/Frameworks</h2>
+
+   <ul>
+     <li>Wordpress</li>
+
+   </ul>
+    </div>
+  </div>
+  <div class="three">
+    <img src="img/foto4.jpg" alt="">
+    <div class="">
+      <h2>Others</h2>
+      <ul>
+        <li>jQuery</li>
+        <li>Photoshop</li>
+      </ul>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<section id="section4">
+  <div class="container">
+  <h2>About me</h2>
+  <p>I am a musician and front-end developer.<br>
+    To help children learn music, I am bilding music learning apps.
+  </p>
+
+  </div>
+
+</section>
+<section id = "section5">
+  <div class="two-two">
+<div class="four">
+   <img src="img/foto7.jpg" alt="">
+   <h2>App1</h2>
+   <p>Music Learning App</p>
+
+ <button type="button" name="button">Detils</button>
+</div>
+ <div class="four">
+   <img src="img/foto17.jpg" alt="">
+ <h2>App2</h2>
+ <p>Music Learning App</p>
+ <button type="button" name="button">Details</button>
+</div>
+</div>
+<div class="two-two">
+
+
+ <div class="four">
+   <img src="img/foto11.jpg" alt="">
+   <h2>App3</h2>
+   <p>Music Learning App</p>
+ <button type="button" name="button">Details</button>
+ </div>
+ <div class="four">
+   <img src="img/foto9.jpg" alt="">
+   <h2>App4</h2>
+   <p>Music Learning App</p>
+   <button type="button" name="button">Details</button>
+ </div>
+ </div>
+</section>
+<section id = "contact">
+  <ul>
+    <li>
+      <a href="https://github.com/akikomyao" target="_blank"><i class="fab fa-github fa-2x" target="_blank"></i></a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/akiko.miyaoka.5" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+    </li>
+    <li>
+      <a href="mailto:violinpiano25@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
+    </li>
+  </ul>
+
+
+
+</section>
+
+
+
+
+
+
+<footer></footer>
+<script>
+  document.getElementById("navbtn").onclick =
+  function(){
+    document.querySelector('html').classList.toggle('open');
+  }
+</script>
+  </body>
+</html>
